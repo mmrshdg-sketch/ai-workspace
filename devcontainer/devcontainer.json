@@ -1,0 +1,11 @@
+{
+    "name": "Gemma Codespace",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+    "postCreateCommand": "pip install -r requirements.txt",
+    "portsAttributes": {
+        "7860": {
+            "label": "Gradio",
+            "onAutoForward": "openBrowser"
+        }
+    }
+}
